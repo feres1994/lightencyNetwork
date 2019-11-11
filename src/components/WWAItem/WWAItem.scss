@@ -1,12 +1,19 @@
 .WWA-item {
   display: flex;
   height: 300px;
+  padding: 7px;
   width: 215px;
+  border-radius: 15px;
+  /* box-shadow: 6px 6px 6px 9px rgba(110, 99, 99, 0.1); */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
   margin: 0 25px;
+  -webkit-box-shadow: 10px 10px 60px 2px rgba(207, 203, 207, 0.4);
+  -moz-box-shadow: 10px 10px 60px 2px rgba(207, 203, 207, 0.4);
+  box-shadow: 10px 10px 60px 2px rgba(207, 203, 207, 0.4);
+
   .WWA-item-desc-title {
     font-weight: bold;
   }

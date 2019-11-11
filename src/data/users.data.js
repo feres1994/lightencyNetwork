@@ -2,6 +2,7 @@ import analmine from "../graphics/analmine.png";
 import benji from "../graphics/benji.png";
 import boubaker from "../graphics/boubaker.png";
 import feres from "../graphics/faousa.png";
+import kimo from "../graphics/Karim_Chaari.jpg";
 import chamous from "../graphics/chamous.jpg";
 import hay from "../graphics/HAY.png";
 import alann from "../graphics/Alann.jpg";
@@ -148,6 +149,20 @@ export const users = [
     },
     description: "",
     image: feres,
+    tag: "tech"
+  },
+  {
+    id: uuid(),
+    link: "karim_chaari",
+    name: "CHAARI KARIM",
+    position: "Blockchain developer",
+    social: {
+      linkedin: "https://www.linkedin.com/in/chamsddine/",
+      facebook: "",
+      twitter: ""
+    },
+    description: "",
+    image: kimo,
     tag: "tech"
   },
   {
