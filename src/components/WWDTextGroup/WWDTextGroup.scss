@@ -1,0 +1,19 @@
+.WWD-text-group {
+	font-weight: 100;
+	transition: all 2s cubic-bezier(0.77, 0, 0.175, 1);
+	margin-bottom: 20px;
+	font-size: 1rem;
+	@media only screen and (max-width: 450px) {
+		text-align: center;
+	}
+}
+.WWD-text-group:nth-child(2) {
+	transform: translateX(50px);
+}
+
+.WWD-text-group:nth-child(3) {
+	transform: translateX(100px);
+}
+.WWD-text-group:nth-child(4) {
+	transform: translateX(150px);
+}
