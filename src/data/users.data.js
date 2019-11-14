@@ -23,7 +23,7 @@ export const users = [
     name: "JAAFAR SAIED",
     position: "CEO & CO-FOUNDER",
     social: {
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/saiedjaafar/",
       facebook: "",
       twitter: ""
     },
@@ -157,7 +157,7 @@ export const users = [
     name: "CHAARI KARIM",
     position: "Blockchain developer",
     social: {
-      linkedin: "https://www.linkedin.com/in/chamsddine/",
+      linkedin: "https://www.linkedin.com/in/karimchaari/",
       facebook: "",
       twitter: ""
     },

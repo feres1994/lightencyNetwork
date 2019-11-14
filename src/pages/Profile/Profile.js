@@ -15,7 +15,11 @@ export default class Profile extends Component {
         <div className="Profile-box">
           <div className="Profile-left">
             <div className="Profile-image">
-              <img src={image} alt="profile" />
+              <img
+                src={image}
+                alt="profile"
+                style={{ width: "200px", borderRadius: "50%" }}
+              />
             </div>
           </div>
           <div className="Profile-right">

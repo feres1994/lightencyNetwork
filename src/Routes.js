@@ -4,7 +4,6 @@ import Nav from "./components/Nav/Nav";
 
 import Homepage from "./pages/Homepage/Homepage";
 import OurSolution from "./pages/OurSolution/OurSolution";
-import Ressources from "./pages/Ressources/Ressources";
 import Blog from "./pages/Blog/Blog";
 import GetInTouch from "./pages/GetInTouch/GetInTouch";
 import WhoWeAre from "./pages/WhoWeAre/WhoWeAre";

@@ -47,20 +47,7 @@ class WhoWeAre extends React.Component {
             transition coupled with a strong economic and social impact.
           </p>
         </section>
-        <section className="WWA-intro">
-          <p>
-            <span className="text-gold">Lightency</span> is developing a new
-            kind of energy platform and business model to empower African
-            communities.600 Million Africans have no access to electricity, and
-            this is a huge business opportunity as there is a growing and
-            critical need to facilitate broader access to energy.
-          </p>
-          <p>
-            Lightency brings all energy stakeholders on the same platform to
-            lower the cost of electricity while creating new revenue streams for
-            prosumers and grid operators.
-          </p>
-        </section>
+
         <div className="horizental-container">
           <hr className="who-we-are-horizental" />
         </div>
@@ -136,7 +123,6 @@ class WhoWeAre extends React.Component {
               ))}
           </div>
         </div>
-        <Contact />
       </div>
     );
   }

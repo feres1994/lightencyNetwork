@@ -6,9 +6,14 @@
     align-items: center;
     justify-content: center;
     opacity: 0;
+    background-image: url("../../graphics/parti.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     transform: translateY(50px);
     transition: all 2s cubic-bezier(0.77, 0, 0.175, 1);
+    min-height: 360vh;
 
+    filter: alpha(opacity=50);
     .WWA-item-desc {
       display: flex;
       flex-direction: column;
