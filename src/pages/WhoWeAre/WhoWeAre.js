@@ -2,7 +2,6 @@ import React from "react";
 
 // Components
 import WWAItem from "../../components/WWAItem/WWAItem";
-import Contact from "../../components/Contact/Contact";
 
 // Data
 import { users } from "../../data/users.data";

@@ -161,7 +161,8 @@ export const users = [
       facebook: "",
       twitter: ""
     },
-    description: "",
+    description:
+      "Software engineer, experienced in producing and updating Web applications and Blockchain systems. I'm actually a Full-stack Javascript & Blockchain developer at Lightency Solutions",
     image: kimo,
     tag: "tech"
   },
