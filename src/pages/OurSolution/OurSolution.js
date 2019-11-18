@@ -14,7 +14,7 @@ class OurSolution extends React.Component {
     return (
       <div className="OurSolution">
         <div className="OS-header">
-          <div className="OS-header-title">OUR TECHNOLOGY POWERCHAIN</div>
+          <div className="OS-header-title">our technology powerchain</div>
           <div className="OS-header-text">
             Our P2P trading platform allows consumers to access a green and
             affordable energy. It enables our customers to sell their excess of

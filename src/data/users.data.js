@@ -14,6 +14,7 @@ import thibault from "../graphics/thibault.png";
 import yasmine from "../graphics/yasmine.png";
 import asma from "../graphics/asma.png";
 import wajdi from "../graphics/wajdi.png";
+import zoghlami from "../graphics/zoghlami.jpg";
 import uuid from "uuid/v4";
 
 export const users = [
@@ -147,7 +148,8 @@ export const users = [
       facebook: "",
       twitter: ""
     },
-    description: "",
+    description:
+      "feres  is  a web developer that starts his career with freenlance projects,also he was a full stack js instructor ,and now he choose to continue as a front end developer at lightency",
     image: feres,
     tag: "tech"
   },
@@ -255,5 +257,20 @@ export const users = [
       "Benjamin is known for his diverse approach and perspective towards problem solving. With a degree in International Business from Florida State University. His intention of gaining knowledge and perspective has led him to solo backpack to over 45 countries. Immersing and adapting to foregin environments has expanded his ability to connect with people of all backgrounds. His competency and courage makes him a great fit for our revolutionary team.",
     image: benji,
     tag: "ambassador"
+  },
+  {
+    id: uuid(),
+    link: "Mohamed Zoghlami",
+    name: "MOHAMED ZOGHLAMI",
+    position: "MENTOR",
+    social: {
+      linkedin: "https://www.linkedin.com/in/mohamed-zoghlami-66449121/",
+      facebook: "",
+      twitter: ""
+    },
+    description:
+      "Mohamed ZOGHLAMI - DG Axismed & Consultant International en Stratégie & Développement – Partner Founders Ventures Africa – Co-Fondateur d’Africup - Vice-Président de CREATEC (Association tunisienne des industries créatives numériques)",
+    image: zoghlami,
+    tag: "mentor"
   }
 ];

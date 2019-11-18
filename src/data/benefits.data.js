@@ -21,42 +21,42 @@ import accessibleenergy from "../graphics/accessibleenergy.png";
 
 const benefits = [
   {
-    title: "TRANSPARENCY",
+    title: "transparency",
     desc: "Transparent, secure & instant electricity transactions",
     image: transparency
   },
   {
-    title: "COST SAVING",
+    title: "cost saving",
     desc: "A low-cost payment system on energy trades",
     image: costsaving
   },
   {
-    title: "SCALABILITY",
+    title: "scalability",
     desc: "A scalable and bankable solution",
     image: scalability
   },
   {
-    title: "DECENTRALIZATION",
+    title: "decentralization",
     desc: "A fully decentralized solution for the energy sector",
     image: decentralization
   },
   {
-    title: "ADAPTABILITY",
+    title: "adaptability",
     desc: "An easy integration with third parties",
     image: adaptability
   },
   {
-    title: "USER FRIENDLY",
+    title: "userfriendly",
     desc: "An interactive and user friendly platform",
     image: userfriendly
   },
   {
-    title: "GREEN ENERGY",
+    title: "greenenergy",
     desc: "A facilitated access to low-carbon energy",
     image: greenenergy
   },
   {
-    title: "ACCESSIBLE ENERGY",
+    title: "accessibleenergy",
     desc: "More competitive electricity prices for consumers",
     image: accessibleenergy
   }

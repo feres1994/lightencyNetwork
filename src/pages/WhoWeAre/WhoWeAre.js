@@ -107,6 +107,20 @@ class WhoWeAre extends React.Component {
                 />
               ))}
           </div>
+          <div className="WWA-title">mentors</div>
+          <div className="WWA-advisors group">
+            {users
+              .filter(user => user.tag === "mentor")
+              .map(({ id, link, name, position, image }) => (
+                <WWAItem
+                  key={id}
+                  link={link}
+                  title={name}
+                  subtitle={position}
+                  image={image}
+                />
+              ))}
+          </div>
           <div className="WWA-title">Ambassadors</div>
           <div className="WWA-ambassadors group">
             {users

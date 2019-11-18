@@ -1,6 +1,8 @@
 .Home-button {
   overflow: hidden;
   border: #000000 solid 1px;
+  border-radius: 30px;
+
   div {
     display: flex;
     justify-content: center;
@@ -12,8 +14,10 @@
     padding: 10px;
   }
   div:nth-child(1) {
-    color: #000000;
     background-color: #ffffff;
+    background: linear-gradient(to bottom right, #080926, gold);
+    border-radius: 30px;
+    font-weight: bold;
   }
   div:nth-child(2) {
     background-color: #000000;

@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     transform: translateY(50px);
     transition: all 2s cubic-bezier(0.77, 0, 0.175, 1);
-    min-height: 360vh;
+    min-height: 435vh;
 
     filter: alpha(opacity=50);
     .WWA-item-desc {
@@ -53,8 +53,7 @@
 
     .WWA-title {
       font-size: 2.5rem;
-      text-transform: uppercase;
-      font-weight: bold;
+      $font-weight: bold;
       text-align: center;
     }
   }
@@ -68,11 +67,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-transform: uppercase;
     font-size: 2.5rem;
     text-align: center;
     height: 200px;
-    background: #202a43;
+    background: #080926;
     color: white;
     font-weight: bold;
   }

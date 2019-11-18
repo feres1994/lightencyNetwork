@@ -4,7 +4,7 @@ export default function index() {
   return (
     <div className="power-chain-solution-container">
       <div className="power-chain-solution-overlay">
-        <div className="power-chain-solution-title">POWERCHAIN SOLUTION</div>
+        <div className="power-chain-solution-title">Powerchain solution </div>
         <div className="power-chain-solution-item">
           <p>
             Lightency is developing a new kind of energy platform and business
