@@ -1,7 +1,7 @@
 .power-chain-solution-container {
   height: 500px;
   width: 100%;
-  margin-top: 100px;
+
   background-image: url("../../graphics/particules.jpg");
   background-size: cover;
   text-align: center;
@@ -44,7 +44,6 @@
 }
 @media screen and (max-width: 767px) {
   .power-chain-solution-container {
-    margin-top: 100px;
     height: 700px;
   }
 }

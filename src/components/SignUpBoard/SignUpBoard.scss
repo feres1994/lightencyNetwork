@@ -1,4 +1,4 @@
-$base-blue: #202b43;
+$base-blue: #080926;
 
 .SU-board {
   position: absolute;
@@ -6,10 +6,13 @@ $base-blue: #202b43;
   background-color: $base-blue;
   top: 15%;
   left: -400px;
+  border-radius: 15px;
+
   transition: left 0.3s ease-in;
   transition: all 0.3s ease-in-out;
   .sign-up-content {
     display: flex;
+    padding: 15px;
     margin: 15px 0;
     width: 350px;
     height: 400px;
@@ -22,6 +25,7 @@ $base-blue: #202b43;
       border-radius: 0;
       min-height: 30px;
       width: 100%;
+      border-radius: 7px;
       align-self: center;
       box-sizing: border-box;
       padding: 0 10px;
@@ -45,9 +49,10 @@ $base-blue: #202b43;
       margin-bottom: 15px;
     }
     .board-subscribe {
-      background-color: #ffde00;
+      background: linear-gradient(to bottom right, #080926, gold);
       width: 150px;
       border: 0;
+      border-radius: 15px;
       color: white;
       font-weight: bold;
       text-align: center;

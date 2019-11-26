@@ -5,6 +5,7 @@ import WWAItem from "../../components/WWAItem/WWAItem";
 
 // Data
 import { users } from "../../data/users.data";
+import LightWomenSvg from "../../svgComponent/lightWomen";
 
 // Styles
 import "./WhoWeAre.scss";
@@ -34,22 +35,22 @@ class WhoWeAre extends React.Component {
       <div className="WhoWeAre">
         <div className="WWA-header">Who we are</div>
         <section className="WWA-intro">
-          <p>
-            <span className="text-gold">Lightency</span> is a gathering of
-            experts in deep technologies who strongly believe that in this
-            digital revolution everyone has the right to consume energy without
-            any difficulty and that renewable energy is the solution for climate
-            change.
-          </p>
-          <p>
-            Our alliance aims to put new technologies at the service of a green
-            transition coupled with a strong economic and social impact.
-          </p>
+          <div className="WWA-intro-first-container">
+            <p>
+              <span className="text-gold">Lightency</span> is a gathering of
+              experts in deep technologies who strongly believe that in this
+              digital revolution everyone has the right to consume energy
+              without any difficulty and that renewable energy is the solution
+              for climate change.
+            </p>
+            <p>
+              Our alliance aims to put new technologies at the service of a
+              green transition coupled with a strong economic and social impact.
+            </p>
+          </div>
+          <LightWomenSvg />
         </section>
 
-        <div className="horizental-container">
-          <hr className="who-we-are-horizental" />
-        </div>
         <div className="WWA-WE" style={mainStyles}>
           <div className="WWA-team group">
             <div className="WWA-title">TEAM</div>

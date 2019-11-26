@@ -16,7 +16,7 @@ $base-yellow: #ffde00;
     position: fixed;
     &::before {
       filter: brightness(0.4);
-      background-image: url("../../graphics/blockchain2.png");
+      background-image: url("../../graphics/mine2.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       content: "";
@@ -52,7 +52,7 @@ $base-yellow: #ffde00;
       z-index: -1;
       position: relative;
       &::before {
-        background-image: url("../../graphics/planet_400.jpg");
+        background-image: url("../../graphics/mine2.jpg");
       }
     }
   }
