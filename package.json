@@ -16,7 +16,9 @@
     "reselect": "^4.0.0",
     "scroll-to-element": "^2.0.3",
     "uuid": "^3.3.3",
-    "vivus": "^0.4.4"
+    "vivus": "^0.4.4",
+    "firebase": "^6.0.2",
+    "firebase-admin": "^7.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

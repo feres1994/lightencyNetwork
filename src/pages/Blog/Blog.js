@@ -1,11 +1,19 @@
-import React from "react";
-import Article from "../../components/Article/Article";
-import articles from "../../data/articles.data.js";
+import React from 'react';
+import Article from '../../components/Article/Article';
+import articles from '../../data/articles.data.js';
+import { getFirebase } from '../../firebase';
 
-import "./Blog.scss";
+import './Blog.scss';
 
 class Blog extends React.Component {
   componentDidMount() {
+    getFirebase()
+      .database()
+      .ref('/articles')
+      .once('value')
+      .then(snapshot => {
+        console.log(snapshot.val());
+      });
     window.scrollTo(0, 0);
   }
   render() {
