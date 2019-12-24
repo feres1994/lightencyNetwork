@@ -97,12 +97,16 @@ export default class ArticlePage extends Component {
           <hr />
           <div className="Article-footer">
             <div className="Article-author-img">
-              <img alt="author" />
+              <img
+                src={article.authorImage}
+                alt="author"
+                style={{ borderRadius: "50px" }}
+              />
             </div>
             <div>
               <div className="Article-wb">Written by:</div>
               <div className="Article-author">{article.author}</div>
-              <div className="Article-author-info">{}</div>
+              <div className="Article-author-info">{article.authorBio}</div>
             </div>
           </div>
         </div>
