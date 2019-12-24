@@ -53,26 +53,8 @@ export default class Routes extends Component {
               />
             );
           })}
-          {articles.map(article => {
-            return (
-              <Route
-                key={article.id}
-                exact
-                path={`/blog/${article.title.replace(/[^\w\s]/gi, "")}/`}
-                render={props => (
-                  <ArticlePage
-                    {...props}
-                    title={article.title}
-                    text={article.text}
-                    image={article.image}
-                    authorImage={article.authorImage}
-                    author={article.author}
-                    authorShortInfo={article.authorShortInfo}
-                  />
-                )}
-              />
-            );
-          })}
+
+          <Route exact path={`/blog/:id/`} component={ArticlePage} />
         </div>
         <Footer />
       </>
