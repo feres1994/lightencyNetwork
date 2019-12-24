@@ -46,7 +46,7 @@ class Blog extends React.Component {
                 <Article
                   title={article[1].title}
                   author={article[1].author}
-                  preview={article[1].content.slice(0, 300)}
+                  preview={article[1].miniContent}
                   image={article[1].coverImage}
                   datePretty={article[1].datePretty}
                   key={article[0]}
