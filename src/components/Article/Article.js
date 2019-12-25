@@ -1,10 +1,10 @@
-import React from "react";
-import facebook from "../../graphics/facebook.png";
-import twitter from "../../graphics/twitter.png";
-import linkedin from "../../graphics/linkedin.png";
-import { Link, withRouter } from "react-router-dom";
+import React from 'react';
+import facebook from '../../graphics/facebook.png';
+import twitter from '../../graphics/twitter.png';
+import linkedin from '../../graphics/linkedin.png';
+import { Link, withRouter } from 'react-router-dom';
 
-import "./Article.scss";
+import './Article.scss';
 
 const Article = ({
   title,
@@ -19,7 +19,7 @@ const Article = ({
   ln,
   datePretty
 }) => {
-  console.log(title.replace(/[^\w\s]/gi, ""));
+  console.log(title.replace(/[^\w\s]/gi, ''));
   return (
     <div className="Article">
       <div className="Article-item">
@@ -35,15 +35,22 @@ const Article = ({
             <a href={ln} target="_blank">
               <img src={linkedin} alt="linkedin" />
             </a>
-            <img src={twitter} alt="twitter" />
+            <a href={tw} target="_blank">
+              <img src={twitter} alt="twitter" />
+            </a>
           </div>
         </div>
         <div className="Article-img">
-          <a href={tw} target="_blank">
-            <img src={image} alt="article-img" />
-          </a>
+          <img src={image} alt="article-img" />
         </div>
-        <div className="Article-preview">{preview}</div>
+        <div className="Article-preview">
+          {preview.split(' _n ').map((item, i) => {
+            if (item.length > 0) {
+              return <p key={i}>{item}</p>;
+            }
+            return <br></br>;
+          })}
+        </div>
         <Link to={`/blog/${id}`}>
           <div className="Article-button">Read More</div>
         </Link>
