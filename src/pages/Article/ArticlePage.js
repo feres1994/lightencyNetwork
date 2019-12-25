@@ -60,7 +60,7 @@ export default class ArticlePage extends Component {
         <img src={NotFound} />
 
         <Link to="/blog">
-          <button style={RedirectingBtn}>Redirect to blog page</button>
+          <button style={RedirectingBtn}>back to blog page</button>
         </Link>
       </div>
     ) : (
@@ -82,7 +82,7 @@ export default class ArticlePage extends Component {
               <a href={article.fb} target="_blank">
                 <img src={facebook} alt="facebook" />
               </a>
-              <a href={article.ln} target="_blank">
+              <a href={article.authorLinkedIn} target="_blank">
                 <img src={linkedin} alt="linkedin" />
               </a>
               <a href={article.tw} target="_blank">
