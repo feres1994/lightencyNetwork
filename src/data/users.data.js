@@ -316,7 +316,7 @@ export const users = [
     name: 'NIDHAL TORMANE',
     position: 'BUSINESS ANALYST',
     social: {
-      linkedin: 'https://www.linkedin.com/in/mohamed-zoghlami-66449121/',
+      linkedin: '',
       facebook: '',
       twitter: ''
     },
