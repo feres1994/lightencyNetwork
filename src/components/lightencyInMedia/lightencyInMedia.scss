@@ -1,0 +1,39 @@
+.lightency-in-media-container {
+  height: 400px;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  .lightency-in-media-title {
+    font-size: calc(1rem + ((1vw - 0.8rem) * 2.2222));
+  }
+}
+.lightency-in-media {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lightency-in-media img {
+  width: 200px;
+  background: #0f0f0f;
+  padding: 16px;
+  border-radius: 15px;
+}
+@media (min-width: 1200px) {
+  .lightency-in-media-container {
+    width: 1000px;
+  }
+}
+@media (min-width: 993px) {
+  .lightency-in-media-container {
+    width: 900px;
+  }
+}
+@media (min-width: 767px) {
+  .lightency-in-media-container {
+    width: 700px;
+  }
+}

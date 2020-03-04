@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import "./WWAItem.scss";
+import './WWAItem.scss';
 
 export default class WWAItem extends Component {
   render() {
@@ -11,7 +11,12 @@ export default class WWAItem extends Component {
         <img src={image} alt={`${link}`} />
         <div className="WWA-item-desc">
           <div className="WWA-item-desc-title">{title}</div>
-          <div className="WWA-item-desc-subtitle">{subtitle}</div>
+          <div
+            className="WWA-item-desc-subtitle"
+            style={{ textAlign: 'center', textTransform: 'lowercase' }}
+          >
+            {subtitle}
+          </div>
           <Link to={`${link}`} className="WWA-item-bio">
             View bio
           </Link>

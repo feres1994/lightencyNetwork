@@ -93,6 +93,20 @@ class WhoWeAre extends React.Component {
                   />
                 ))}
             </div>
+
+            <div className="WWA-ambassadors group">
+              {users
+                .filter(user => user.tag === 'business')
+                .map(({ id, link, name, position, image }) => (
+                  <WWAItem
+                    key={id}
+                    link={link}
+                    title={name}
+                    subtitle={position}
+                    image={image}
+                  />
+                ))}
+            </div>
           </div>
           <div className="WWA-title">Advisors</div>
           <div className="WWA-advisors group">
@@ -126,49 +140,6 @@ class WhoWeAre extends React.Component {
           <div className="WWA-ambassadors group">
             {users
               .filter(user => user.tag === 'ambassador')
-              .map(({ id, link, name, position, image }) => (
-                <WWAItem
-                  key={id}
-                  link={link}
-                  title={name}
-                  subtitle={position}
-                  image={image}
-                />
-              ))}
-          </div>
-          <div className="WWA-title">Growth hacker</div>
-          <div className="WWA-ambassadors group">
-            {users
-              .filter(user => user.tag === 'growth hacker')
-              .map(({ id, link, name, position, image }) => (
-                <WWAItem
-                  key={id}
-                  link={link}
-                  title={name}
-                  subtitle={position}
-                  image={image}
-                />
-              ))}
-          </div>
-          <div className="WWA-title">Business analyst</div>
-          <div className="WWA-ambassadors group">
-            {users
-              .filter(user => user.tag === 'business analyst')
-              .map(({ id, link, name, position, image }) => (
-                <WWAItem
-                  key={id}
-                  link={link}
-                  title={name}
-                  subtitle={position}
-                  image={image}
-                />
-              ))}
-          </div>
-
-          <div className="WWA-title"> business developer</div>
-          <div className="WWA-ambassadors group">
-            {users
-              .filter(user => user.tag === 'business developer')
               .map(({ id, link, name, position, image }) => (
                 <WWAItem
                   key={id}

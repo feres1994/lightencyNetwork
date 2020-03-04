@@ -27,7 +27,7 @@ export const users = [
     id: uuid(),
     link: 'jafaar-saied',
     name: 'JAAFAR SAIED',
-    position: 'CEO & CO-FOUNDER',
+    position: 'CHIEF DEVELOPMENT OFFICER',
     social: {
       linkedin: 'https://www.linkedin.com/in/saiedjaafar/',
       facebook: '',
@@ -39,26 +39,12 @@ export const users = [
     image: jafaar,
     tag: 'founder'
   },
-  {
-    id: uuid(),
-    link: 'boubaker-selmi',
-    name: 'Boubaker Selmi',
-    position: 'CTO & CO-FOUNDER',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/boubakerselmi/',
-      facebook: '',
-      twitter: ''
-    },
-    description:
-      'Boubaker Selmi is an experienced IT service manager and project manager with 8 years of experience in different sectors: Banking, Finance, Telecommunication, and Energy. He is passionate about new technologies especially IoT, IA, and Blockchain.He previously worked for Engie, BNP Parisbas, and SFR. An ENSII Paris Alma matter.',
-    image: boubaker,
-    tag: 'founder'
-  },
+
   {
     id: uuid(),
     link: 'mohammed-mnif',
     name: 'MOHAMMED MNIF',
-    position: 'CFO & CO-FOUNDER',
+    position: 'CHIEF DEVELOPMENT OFFICER',
     social: {
       linkedin: 'https://www.linkedin.com/in/mohamed-mnif-3b8b9698/',
       facebook: '',
@@ -69,26 +55,12 @@ export const users = [
     image: mohammed,
     tag: 'founder'
   },
-  {
-    id: uuid(),
-    link: 'haythem-chedid',
-    name: 'HAYTHEM CHEDID',
-    position: 'COO & CO-FOUNDER',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/haythem-chedid-a92075123/',
-      facebook: '',
-      twitter: ''
-    },
-    description:
-      'Haythem is an architect and an entrepreneur. Environmentally conscious, he always thought about solutions to integrate sustainable development by designing an architecture that respects the environment and ecology. While working with Green Panel Technology, he realized that Blockchain could revolutionize the renewable energies industry.Haythem has also co-founded several other Blockchain projects such as Decentral Magazine, OuiMine and Dar Blockchain.',
-    image: hay,
-    tag: 'founder'
-  },
+
   {
     id: uuid(),
     link: 'mohamed-ali-gam',
     name: 'MOHAMED-ALI GAM',
-    position: 'CDO',
+    position: 'CHIEF DEVELOPMENT OFFICER',
     social: {
       linkedin: 'https://www.linkedin.com/in/haythem-chedid-a92075123/',
       facebook: '',
@@ -97,9 +69,11 @@ export const users = [
     description:
       'Mohamed-Ali is the Chief Development Officer at Electrify Network. He has 20 years combined international professional experience in Renewable Energy and Information Technology. He has been the Vice President of Business Development for Europe, Middle East, and Africa (“EMEA”) at Suntrough Energy Inc, a USA based project development and technology startup focused on Solar Concentrated Power technology and Solar PV projects. He is the founder and General Manager of Gamco Energy, a renewable energy EPC company in Africa  based in Tunisia, and co-founder and board member of Solartech Sud a Smart City based in Tunisia. ',
     image: mohamed,
-    tag: 'vp'
+    tag: 'founder'
   },
-  {
+  ,
+  ,
+  /*{
     id: uuid(),
     link: 'asma-makni',
     name: 'ASMA MAKNI',
@@ -113,8 +87,7 @@ export const users = [
       'Asma, a Corporate Law Graduate and Blockchain enthusiast from Pantheon-Assas University, is currently pursuing a Master’s Degree in Entrepreneurship and Innovation.She has also held junior legal/research analyst and attorney positions in several law firms, where she acquired a solid experience in Compliance and Corporate Governance. ',
     image: asma,
     tag: 'vp'
-  },
-  {
+  }*/ /* {
     id: uuid(),
     link: 'yasmine-ben-miloud',
     name: 'YASMINE BEN MILOUD',
@@ -128,8 +101,7 @@ export const users = [
       'Yasmine is an Instrumentation and maintenance engineer that chose the sustainable development path, and enrolled in the renewable energy business. She started her engineering career within KRAFTWERK Renewable Power Solutions GmbH in Germany.Yasmine Believes in the capabilities of Blockchain when applied to the energy sector, and thinks Electrify will be the future of energy.',
     image: yasmine,
     tag: 'vp'
-  },
-  {
+  }*/ {
     id: uuid(),
     link: 'chamseddine-bouzaiene',
     name: 'CHAMSEDDINE BOUZAIENE',
@@ -278,6 +250,21 @@ export const users = [
     image: zoghlami,
     tag: 'mentor'
   },
+  {
+    id: uuid(),
+    link: 'boubaker-selmi',
+    name: 'Boubaker Selmi',
+    position: 'MENTOR',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/boubakerselmi/',
+      facebook: '',
+      twitter: ''
+    },
+    description:
+      'Boubaker Selmi is an experienced IT service manager and project manager with 8 years of experience in different sectors: Banking, Finance, Telecommunication, and Energy. He is passionate about new technologies especially IoT, IA, and Blockchain.He previously worked for Engie, BNP Parisbas, and SFR. An ENSII Paris Alma matter.',
+    image: boubaker,
+    tag: 'mentor'
+  },
 
   {
     id: uuid(),
@@ -292,7 +279,7 @@ export const users = [
     description:
       'Iyed Belguith is a business analyst specialized in Marketing . He is a Technology and Blockchain enthusiast. Iyed is passionate about creating positive impact. Since he was 16 years old, he was elected as the president of JCI Medenine in Tunisia. He founded and initiated different movements and events in his hometown.He has a professional experience in community building and Marketing through his work with different NGOs and Start-Ups. Iyed believes in the power of blockchain to impact every African citizen. ',
     image: iyed,
-    tag: 'growth hacker'
+    tag: 'business'
   },
   {
     id: uuid(),
@@ -308,7 +295,7 @@ export const users = [
     description:
       ' Jamil is a Business analyst specialized in Finance. He have been trading since he was 18 years old. He is the former President of ATLAS Future Leaders-TBS Chapter club and the former CEO of Halfa Twist a company enrolled within Injaz program. Moreover, he is working on sustainability through Social Entrepreneurship: Jamil was the finalist of The MENA-Michigan Initiative for Global Action Through Entrepreneurship (M²GATE) program.Lately, he was enrolled in Erasmus UNICollaboration : Transnational Erasmus+ Virtual Exchange Projects and won with his team the Hult Prize 2020 OnCampus Event.',
     image: jamil,
-    tag: 'business analyst'
+    tag: 'business'
   },
   {
     id: uuid(),
@@ -323,7 +310,7 @@ export const users = [
     description:
       "Nidhal Tormane Nidhal is a Business analyst specialized in Accounting and Finance. He developed through the last few years, additional skills in marketing such as designing, community management and web development. Also, He studied the philosophy of lean management. He founded a university club 'TRINITY TBS' specialized in developing a suitable environment for students to develop skills and apply them within the activities of the club.",
     image: nidhal,
-    tag: 'business analyst'
+    tag: 'business'
   },
   {
     id: uuid(),
@@ -338,6 +325,6 @@ export const users = [
     description:
       'Mens is a Business Analytics passionate about social entrepreneurship. He went through several experiences where he had the chance to promote youth social activism. Mens takes every experience as an opportunity to improve his competencies and break new limits. After taking several leadership positions in clubs and associations such as ATLAS-TBS, and The Hult Prize. He participated in entrepreneurship competitions like INJAZ Company Program and Hult Prize Malaysia Regionals, Mens is a Blockchain enthusiast and aims to participate in the African technology revolution. ',
     image: mens,
-    tag: 'business developer'
+    tag: 'business'
   }
 ];

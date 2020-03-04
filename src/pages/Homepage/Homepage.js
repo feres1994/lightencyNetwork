@@ -1,17 +1,18 @@
-import React from "react";
-import { connect } from "react-redux";
+import React from 'react';
+import { connect } from 'react-redux';
 // import scrollToElement from "scroll-to-element";
 // Components
-import HomeWelcome from "../../components/HomeWelcome/HomeWelcome";
-import SolutionSection from "../../components/SolutionSection/SolutionSection";
-import WhatWeDoSection from "../../components/WhatWeDoSection/WhatWeDoSection";
-import SliderSection from "../../components/SliderSection/SliderSection";
-import AfricanMarket from "../../components/AfricanMarket/AfricanMarket";
-import EnergyTrading from "../../components/EnergyTrading/EnergyTrading";
-import Framework from "../../components/Framework/Framework";
+import HomeWelcome from '../../components/HomeWelcome/HomeWelcome';
+import SolutionSection from '../../components/SolutionSection/SolutionSection';
+import WhatWeDoSection from '../../components/WhatWeDoSection/WhatWeDoSection';
+import SliderSection from '../../components/SliderSection/SliderSection';
+import AfricanMarket from '../../components/AfricanMarket/AfricanMarket';
+import EnergyTrading from '../../components/EnergyTrading/EnergyTrading';
+import Framework from '../../components/Framework/Framework';
+import LightencyInMedia from '../../components/lightencyInMedia';
 
 // Styles
-import "./Homepage.scss";
+import './Homepage.scss';
 
 // Actions
 import {
@@ -19,7 +20,7 @@ import {
   makeSSVisible,
   makeWWDVisible,
   makeAMVisible
-} from "../../redux/scroll/scroll.actions";
+} from '../../redux/scroll/scroll.actions';
 
 class Homepage extends React.Component {
   handleScroll = () => {
@@ -39,10 +40,10 @@ class Homepage extends React.Component {
   };
   componentDidMount() {
     window.scrollTo(0, 0);
-    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll);
   }
   componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
   render() {
     return (
@@ -71,7 +72,9 @@ const mapStateToProps = ({
   africanMarketIsVisible
 });
 
-export default connect(
-  mapStateToProps,
-  { updateYPosition, makeSSVisible, makeWWDVisible, makeAMVisible }
-)(Homepage);
+export default connect(mapStateToProps, {
+  updateYPosition,
+  makeSSVisible,
+  makeWWDVisible,
+  makeAMVisible
+})(Homepage);
