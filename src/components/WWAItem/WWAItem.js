@@ -13,7 +13,7 @@ export default class WWAItem extends Component {
           <div className="WWA-item-desc-title">{title}</div>
           <div
             className="WWA-item-desc-subtitle"
-            style={{ textAlign: 'center', textTransform: 'lowercase' }}
+            style={{ textAlign: 'center' }}
           >
             {subtitle}
           </div>

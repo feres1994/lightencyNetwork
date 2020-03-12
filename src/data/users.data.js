@@ -27,7 +27,7 @@ export const users = [
     id: uuid(),
     link: 'jafaar-saied',
     name: 'JAAFAR SAIED',
-    position: 'CHIEF DEVELOPMENT OFFICER',
+    position: 'Chief executive officer',
     social: {
       linkedin: 'https://www.linkedin.com/in/saiedjaafar/',
       facebook: '',
@@ -44,7 +44,7 @@ export const users = [
     id: uuid(),
     link: 'mohammed-mnif',
     name: 'MOHAMMED MNIF',
-    position: 'CHIEF DEVELOPMENT OFFICER',
+    position: 'Chief financial officer',
     social: {
       linkedin: 'https://www.linkedin.com/in/mohamed-mnif-3b8b9698/',
       facebook: '',
@@ -60,7 +60,7 @@ export const users = [
     id: uuid(),
     link: 'mohamed-ali-gam',
     name: 'MOHAMED-ALI GAM',
-    position: 'CHIEF DEVELOPMENT OFFICER',
+    position: 'Chief development officer',
     social: {
       linkedin: 'https://www.linkedin.com/in/haythem-chedid-a92075123/',
       facebook: '',
@@ -105,7 +105,7 @@ export const users = [
     id: uuid(),
     link: 'chamseddine-bouzaiene',
     name: 'CHAMSEDDINE BOUZAIENE',
-    position: 'Blockchain Tech Lead',
+    position: 'Blockchain tech lead',
     social: {
       linkedin: 'https://www.linkedin.com/in/chamsddine/',
       facebook: '',
@@ -119,7 +119,7 @@ export const users = [
     id: uuid(),
     link: 'feres-fatnassi',
     name: 'FERES FATNASSI',
-    position: 'Full Stack Developer',
+    position: 'Full stack developer',
     social: {
       linkedin: 'https://www.linkedin.com/in/fatnassif%C3%A9res/',
       facebook: '',
@@ -149,7 +149,7 @@ export const users = [
     id: uuid(),
     link: 'thibault-verbiest',
     name: 'THIBAULT VERBIEST',
-    position: 'ADVISOR',
+    position: 'Advisor',
     social: {
       linkedin: 'https://www.linkedin.com/in/thibaultverbiest/',
       facebook: '',
@@ -165,7 +165,7 @@ export const users = [
     id: uuid(),
     link: 'philippe-tesler',
     name: 'PHILIPPE TESLER',
-    position: 'Marketing Advisor',
+    position: 'Marketing advisor',
     social: {
       linkedin: '',
       facebook: '',
@@ -180,7 +180,7 @@ export const users = [
     id: uuid(),
     link: 'alan-main',
     name: 'ALAN MAIN',
-    position: 'Strategic Advisor',
+    position: 'Strategic advisor',
     social: {
       linkedin: '',
       facebook: '',
@@ -194,7 +194,7 @@ export const users = [
     id: uuid(),
     link: 'wajdi-sulaiman',
     name: 'WAJDI SULAIMAN',
-    position: 'AMBASSADOR',
+    position: 'Ambassador',
     social: {
       linkedin: 'https://www.linkedin.com/in/wajdisulaiman/',
       facebook: '',
@@ -209,7 +209,7 @@ export const users = [
     id: uuid(),
     link: 'abdelmonaem-labidi',
     name: 'ABDELMONAEM LABIDI',
-    position: 'AMBASSADOR',
+    position: 'Ambassador',
     social: {
       linkedin: 'https://www.linkedin.com/in/abdelmonaem-labidi-567b811b/',
       facebook: '',
@@ -224,7 +224,7 @@ export const users = [
     id: uuid(),
     link: 'benjamin-steiner',
     name: 'BENJAMIN STEINER',
-    position: 'AMBASSADOR',
+    position: 'Ambassador',
     social: {
       linkedin: '',
       facebook: 'https://www.facebook.com/benjamin.steiner.3956',
@@ -239,7 +239,7 @@ export const users = [
     id: uuid(),
     link: 'Mohamed Zoghlami',
     name: 'MOHAMED ZOGHLAMI',
-    position: 'MENTOR',
+    position: 'Mentor',
     social: {
       linkedin: 'https://www.linkedin.com/in/mohamed-zoghlami-66449121/',
       facebook: '',
@@ -254,7 +254,7 @@ export const users = [
     id: uuid(),
     link: 'boubaker-selmi',
     name: 'Boubaker Selmi',
-    position: 'MENTOR',
+    position: 'Mentor',
     social: {
       linkedin: 'https://www.linkedin.com/in/boubakerselmi/',
       facebook: '',
@@ -270,7 +270,7 @@ export const users = [
     id: uuid(),
     link: 'Iyed Belghith',
     name: 'IYED BELGUITH',
-    position: 'GROWTH HACKER',
+    position: 'Growth hacker',
     social: {
       linkedin: 'https://www.linkedin.com/in/iyed-belguith/',
       facebook: '',
@@ -285,7 +285,7 @@ export const users = [
     id: uuid(),
     link: 'jamil lakhdher zammouri',
     name: 'JAMIL LAKHDER',
-    position: 'BUSINESS ANALYST',
+    position: 'Business analyst',
     social: {
       linkedin:
         'https://www.linkedin.com/in/jamil-lakhdher-zammouri-aa1035141/',
@@ -301,7 +301,7 @@ export const users = [
     id: uuid(),
     link: 'Nidhal Tormane',
     name: 'NIDHAL TORMANE',
-    position: 'BUSINESS ANALYST',
+    position: 'Business analyst',
     social: {
       linkedin: '',
       facebook: '',
@@ -316,7 +316,7 @@ export const users = [
     id: uuid(),
     link: 'Mens Ayed',
     name: 'MENS AYED',
-    position: 'BUSINESS DEVELOPER',
+    position: 'Business developer',
     social: {
       linkedin: 'https://www.linkedin.com/in/mens-ayed-388b77142/',
       facebook: '',

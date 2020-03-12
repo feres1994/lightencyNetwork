@@ -55,6 +55,7 @@ class Homepage extends React.Component {
         <AfricanMarket />
         <EnergyTrading />
         <Framework />
+        <LightencyInMedia />
       </div>
     );
   }
