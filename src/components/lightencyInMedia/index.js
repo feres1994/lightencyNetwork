@@ -20,7 +20,7 @@ export default function index() {
   return (
     <div style={{ background: '#fff' }}>
       <div className="lightency-in-media-container">
-        <p className="lightency-in-media-title">lightency in the Media</p>
+        <p className="lightency-in-media-title">Lightency In The Media</p>
         <div className="lightency-in-media">
           {media.map(el => (
             <a href={el.link} target="_blank">
